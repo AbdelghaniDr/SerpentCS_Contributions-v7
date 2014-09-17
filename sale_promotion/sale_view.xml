@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<openerp>
+	<data>
+
+		<record id="inherited_sale_order_line_tree" model="ir.ui.view">
+            <field name="name">inherited.sale.order.form</field>
+            <field name="model">sale.order</field>
+            <field name="inherit_id" ref="sale.view_order_form"/>
+            <field name="arch" type="xml">
+            	<xpath expr="//field[@name='product_id']" position="before">
+					<field name="promotion"/>
+				</xpath>
+            </field>
+        </record>
+
+	</data>
+</openerp>

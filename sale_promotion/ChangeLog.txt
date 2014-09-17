@@ -1,0 +1,5 @@
+===================================================================
+Maintaining the changelog of the module for each commit.
+===================================================================
+1.0 : Ankit - Serpent Consulting Services Pvt Ltd. : Sep 1, 2014
+    * Added the functionality to promotion/free boolean field on sale order line.
